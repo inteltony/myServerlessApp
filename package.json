@@ -1,0 +1,31 @@
+{
+  "name": "myserverlessapp",
+  "version": "1.0.0",
+  "description": "\"# myServerlessApp\"",
+  "main": "index.js",
+  "dependencies": {
+    "aws-serverless-express": "^3.4.0",
+    "body-parser": "^1.19.0",
+    "ejs": "^3.1.5",
+    "express": "^4.17.1",
+    "nodemon": "^2.0.6",
+    "touch": "^3.1.0"
+  },
+  "devDependencies": {
+    "serverless": "^2.16.0"
+  },
+  "scripts": {
+    "start": "nodemon local.js",
+    "deploy": "serverless deploy"
+  },
+  "author": "",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/inteltony/myServerlessApp.git"
+  },
+  "bugs": {
+    "url": "https://github.com/inteltony/myServerlessApp/issues"
+  },
+  "homepage": "https://github.com/inteltony/myServerlessApp#readme"
+}
